@@ -5,17 +5,15 @@ abstract class Operacion {
 }
 
 class OperacionImplementacion extends Operacion {
-  @override
+
   double suma(double a, double b) {
     return a + b;
   }
 
-  @override
   double resta(double a, double b) {
     return a - b;
   }
 
-  @override
   double multiplicacion(double a, double b) {
     return a * b;
   }
